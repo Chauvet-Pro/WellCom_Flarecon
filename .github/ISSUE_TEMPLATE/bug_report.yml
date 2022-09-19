@@ -17,6 +17,16 @@ body:
       placeholder: ex. email@example.com
     validations:
       required: true
+  - type: dropdown
+    id: version
+    attributes:
+      label: Well Com or Flarecon
+      description: What version of our software are you running?
+      options:
+        - Well Com
+        - Flarecon
+    validations:
+      required: true
   - type: textarea
     id: what-happened
     attributes:
@@ -24,16 +34,6 @@ body:
       description: Also tell us, what did you expect to happen?
       placeholder: Tell us what you see!
       value: "A bug happened!"
-    validations:
-      required: true
-  - type: dropdown
-    id: version
-    attributes:
-      label: Version
-      description: What version of our software are you running?
-      options:
-        - Well Com
-        - Flarecon
     validations:
       required: true
   - type: dropdown
@@ -58,4 +58,5 @@ body:
       label:  Phone/Tablet software version
       description: What is the Phone/Tablet software version? 
       render: shell
+  
   
