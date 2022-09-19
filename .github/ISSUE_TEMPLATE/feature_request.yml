@@ -5,10 +5,10 @@ labels: ["Enhancement"]
 assignees:
   - dgooch5200
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for your interest in the project and taking the time to fill out this feature report!
+ - type: markdown
+   attributes:
+     value: |
+       Thanks for your interest in the project and taking the time to fill out this feature report!
  - type: dropdown
    id: version
    attributes:
