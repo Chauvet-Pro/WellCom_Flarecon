@@ -45,10 +45,17 @@ body:
         - Apple
         - Android
         - Other
+   - type: textarea
+    id: Model
+    attributes:
+      label:  Phone/Tablet Model
+      description: What is the Phone/Tablet model name you are using? 
+      render: shell
+    
   - type: textarea
     id: Version
     attributes:
-      label:  Phone/Tablet version
-      description: What is the Phone/Tablet version you are using? 
+      label:  Phone/Tablet software version
+      description: What is the Phone/Tablet software version? 
       render: shell
   
