@@ -40,11 +40,13 @@ body:
     id: browsers
     attributes:
       label: What Phone/Tablet are you seeing the problem on?
-      multiple: true
+      multiple: fulse
       options:
         - Apple
         - Android
         - Other
+     validations:
+      required: true
   - type: textarea
     id: Model
     attributes:
