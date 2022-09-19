@@ -10,13 +10,13 @@ body:
       value: |
         Thanks for your interest in the project and taking the time to fill out this feature report!
  - type: dropdown
-    id: version
-    attributes:
-      label: Version
-      description: What version of our software are you running?
-      options:
-        - Well Com
-        - Flarecon
+   id: version
+   attributes:
+     label: Version
+     description: What version of our software are you running?
+     options:
+       - Well Com
+       - Flarecon
     validations:
      required: true
   - type: textarea
