@@ -40,12 +40,12 @@ body:
     id: browsers
     attributes:
       label: What Phone/Tablet are you seeing the problem on?
-      multiple: fulse
+      multiple: false
       options:
         - Apple
         - Android
         - Other
-     validations:
+    validations:
       required: true
   - type: textarea
     id: Model
@@ -60,5 +60,4 @@ body:
       label:  Phone/Tablet software version
       description: What is the Phone/Tablet software version? 
       render: shell
-  
-  
+    
