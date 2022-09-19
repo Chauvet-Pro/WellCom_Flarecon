@@ -16,6 +16,16 @@ body:
       description: "A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]"
     validations:
       required: true
+   - type: dropdown
+     id: version
+     attributes:
+      label: Version
+      description: What version of our software are you running?
+      options:
+        - Well Com
+        - Flarecon
+     validations:
+      required: true
   - type: textarea
     id: suggested-solution
     attributes:
